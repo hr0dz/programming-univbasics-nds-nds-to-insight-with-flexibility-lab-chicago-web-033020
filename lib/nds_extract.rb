@@ -40,7 +40,7 @@ def movies_with_director_key(name, movies_collection)
   while collect_index < movies_collection.length do 
    
    end
-  
+  new_array
  end
  
   # GOAL: For each Hash in an Array (movies_collection), provide a collection
