@@ -39,7 +39,7 @@ def movies_with_director_key(name, movies_collection)
   collect_index = 0 
   while collect_index < movies_collection.length do 
    movies = movies_collection[i]
-   new_array << movie_with_director_name(name, movies)
+   new_array << movie_with_director_name(name, movie_data)
    collect_index += 1
    end
   new_array
