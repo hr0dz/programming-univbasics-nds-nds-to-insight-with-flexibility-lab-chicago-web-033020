@@ -35,12 +35,12 @@ end
 # Your code after this point
 
 def movies_with_director_key(name, movies_collection)
-  dir_array = []
+  new_array = []
   collect_index = 0 
   while collect_index < movies_collection.length do 
    
    end
-   dir_array
+  
  end
  
   # GOAL: For each Hash in an Array (movies_collection), provide a collection
