@@ -98,7 +98,7 @@ def movies_with_directors_set(source)
   # to have a :director_name key added to it.
  
   i = 0
-  a_o_a_movies_by_dir = []
+  a_o_a_movies_by_dir = Array.new
 
   while i < source.length do
     dir_info_hash = source[i]
