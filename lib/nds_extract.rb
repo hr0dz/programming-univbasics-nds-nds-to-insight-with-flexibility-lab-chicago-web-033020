@@ -64,7 +64,6 @@ def movies_with_director_key(name, movies_collection)
 def gross_per_studio(collection)
 collect_index = 0 
   studio_hash = {}
-  idfk = ""
  while collect_index < collection.length do 
    studio = collection[collect_index][:studio]
     gross = collection[collect_index][:worldwide_gross]
