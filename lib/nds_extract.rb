@@ -44,7 +44,6 @@ def movies_with_director_key(name, movies_collection)
     dir_array.push(dir_hash)
     collect_index += 1 
    end
-   binding.pry
    dir_array
  end
  
