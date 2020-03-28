@@ -97,17 +97,7 @@ def movies_with_directors_set(source)
  # Array of Arrays containing all of a director's movies. Each movie will need
   # to have a :director_name key added to it.
  
- index = 0
-  movies_for_array = Array.new
-  
-  while index < source.length do
-    director = source[index][:name]
-    movie_titles = source[index][:movies]
-    movies_for_array << movies_with_director_key(director, source)
-    index += 1
-  end
-  movies_for_array
-end
+ 
     
 #def directors_database()
   #allstudios = studios_totals(directors_database)
