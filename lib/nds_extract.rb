@@ -42,7 +42,6 @@ def movies_with_director_key(name, movies_collection)
    new_array << movie_with_director_name(name, movie_data)
    collect_index += 1
    end
-   binding.pry
   new_array
  end
  
