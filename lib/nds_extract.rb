@@ -102,7 +102,6 @@ def movies_with_directors_set(source)
   while index < source.length do
     director = source[index][:name]
     movie_titles = source[index][:movies]
-    # movies_temp = movie_with_director_name(director, source[index][:movies])
     movies_for_array.push(movies_with_director_key(director, source))
     index += 1
   end
