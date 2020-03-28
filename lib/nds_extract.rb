@@ -105,6 +105,7 @@ def movies_with_directors_set(source)
     movies_for_array.push(movies_with_director_key(director, source))
     index += 1
   end
+  binding.pry
   movies_for_array
 end
     
