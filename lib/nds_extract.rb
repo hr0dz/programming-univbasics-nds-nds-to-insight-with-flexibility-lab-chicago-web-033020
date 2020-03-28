@@ -67,7 +67,7 @@ collect_index = 0
  while collect_index < collection.length do 
    studio = collection[collect_index][:studio]
     gross = collection[collect_index][:worldwide_gross]
-    #studio_hash << movie_with_director_name
+    
     if !studio_hash[studio]
        studio_hash[studio] = gross
     else 
